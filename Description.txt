@@ -1,0 +1,31 @@
+ 
+As the number of dimentions increses it is a  curse.Reason for that Accuracy always impacted with the increase dimentionality
+ i.e Accuracy decreases with respect to dimentional increases
+     Accuracy increase with respect to dimentional decrese.
+
+
+
+. SKlearn internaly having datasets lab, according that 30 features means 30 dimentions
+  (data set: load_breast_canser)
+
+. According to PCA 30 dimention reduced into 2 dimention 
+  (Dimention will be create concedering all 30 features so that, 
+  nothing lack or loss feature importance)
+
+. Two types of targets 1. Malignant & 2.Benian (represented as 0 for Malignant & 1 for Benian )
+
+. Creating dataframe my first attribute is data and second attribute is features_names
+
+. Through standardscalar we converting all feature values into range of 0 - 1.i.e., scale 
+  (we can use minmaxscalar also) 
+
+. So, data became scale and now transform that.Weget array form of data.
+
+. Now we can use PCA technique/method.
+
+. PCA performed dimentionality reduction infact not done any modeling (X_PCA)
+  (so we get 2 dimentions than 30 dimentions)
+
+. Now we have to perform any machine learning modeling like logistics or ect...using reduced dimentionality 
+  with respect to target values Malignant & Benian 
+ 
